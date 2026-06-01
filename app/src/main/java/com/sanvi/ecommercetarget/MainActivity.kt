@@ -36,6 +36,7 @@ class MainActivity : ComponentActivity() {
 //            }
 
             // Navigation System
+            print("Mukesh Branch")
 
             val navController = rememberNavController()
 
@@ -46,7 +47,7 @@ class MainActivity : ComponentActivity() {
             ){
 
                 // define route using composable(){} for each screen
-                composable("Home") {
+                composable(Screens.Home.route) {
 
                     HomeScreen(
                         navController = navController,
