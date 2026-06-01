@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "276430556402",
+    "project_id": "ecommerceshop-56908",
+    "storage_bucket": "ecommerceshop-56908.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276430556402:android:db9823df2907a41fc5146b",
+        "android_client_info": {
+          "package_name": "com.sanvi.ecommercetarget"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJiDxfGpaVv03mM1WOhR01cNhjF1G78m4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
