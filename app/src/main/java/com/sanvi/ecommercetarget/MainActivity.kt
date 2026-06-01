@@ -36,6 +36,7 @@ class MainActivity : ComponentActivity() {
 
             // Navigation System
             print("Mukesh Branch")
+            print(" Branch")
 
             val navController = rememberNavController()
 
