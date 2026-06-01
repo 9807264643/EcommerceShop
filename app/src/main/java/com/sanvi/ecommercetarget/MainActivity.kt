@@ -4,9 +4,8 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.gestures.ScrollableState
 import androidx.hilt.lifecycle.viewmodel.compose.hiltViewModel
-import androidx.navigation.NavController
+
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
@@ -47,7 +46,7 @@ class MainActivity : ComponentActivity() {
             ){
 
                 // define route using composable(){} for each screen
-                composable(Screens.Home.route) {
+                composable("Home") {
 
                     HomeScreen(
                         navController = navController,
